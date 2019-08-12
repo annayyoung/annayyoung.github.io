@@ -33,6 +33,7 @@ body {
 .finish.st0 {
   animation: instant 1ms ease-out;
   animation-fill-mode: forwards;
+  background-color: green;
 }
 @keyframes instant {
   100% {
