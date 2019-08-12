@@ -27,6 +27,7 @@ body {
   stroke-dasharray: 3950;
   animation: dash 9s linear forwards;
   position: relative;
+  background-color: green;
 }
 
 .finish.st0 {
