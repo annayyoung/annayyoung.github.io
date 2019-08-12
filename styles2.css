@@ -1,0 +1,114 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  /*background-color: #FBEEE6; */
+/*  background-image: url("background.svg");
+  background-repeat: no-repeat;
+  background-size: 100%; */
+}
+
+#about_pic {
+  width: 950px;
+  height:500px;
+  margin: 75px auto;
+  position: relative;
+}
+
+#about_pic img {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  margin: auto;
+}
+
+.has-overlay {
+ position: absolute;
+ margin: 95px 5px;
+ height: 78%;
+ width: 86.5%;
+ opacity: 0;
+ background-color: black;
+ z-index: 99;
+}
+
+.text {
+  color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 140px;
+  text-align: justify;
+  font-family: serif, sans-serif;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url("background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: -.5px;
+  left: -.5px;
+}
+
+.square {
+  width: 220px;
+  height: 300px;
+  background-color: blue;
+  display: inline-block;
+  margin: 40px 25px;
+  opacity: .99;
+  z-index: 100;
+  position: relative;
+  top: 100px;
+  left: 7px;
+  opacity: 0;
+  vertical-align: top;
+  filter: drop-shadow(3px 3px 3px);
+  border-radius: 10px;
+}
+#about_square {
+  background-color: #A3C3D9;
+
+}
+#project_square {
+  background-color: #F2CBCB;
+
+}
+#contact_square {
+  background-color: #FEB449;
+
+}
+
+.icon {
+  height: 65px;
+  width: 65px;
+  margin: auto;
+  position: relative;
+  left: 78px;
+  top: 15px;
+}
+
+.words {
+  height: 180px;
+  width: 150px;
+  margin: auto;
+  top: 75px;
+  position: relative;
+  font-family: 'Rozha One', serif;
+  color: #AC7229;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.words p {
+  font-family: "Lato", serif;
+  letter-spacing: normal;
+  font-size: 11pt;
+}
+.words a {
+  text-decoration: none;
+}
+
+.words a:hover {
+  text-decoration: underline;
+}
